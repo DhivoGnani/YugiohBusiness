@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yugiohbusiness.MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/banner"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/banner_description"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/exodia"
+            android:contentDescription="@string/exodia_description"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/dark_magician"
+            android:contentDescription="@string/dark_magician_description"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/blue_eyes"
+            android:contentDescription="@string/blue_eyes_description"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/red_eyes"
+            android:contentDescription="@string/red_eyes_description"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/business_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/business_name"
+            android:textAppearance="@android:style/TextAppearance.Large"/>
+
+        <TextView
+            android:id="@+id/owner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/owner_name"
+            android:layout_below="@id/business_name"
+            android:textAppearance="@android:style/TextAppearance.Medium"/>
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number"
+            android:layout_below="@id/owner"
+            android:background="@color/colorPrimaryDark"
+            android:textAppearance="@android:style/TextAppearance.Inverse"/>
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:layout_below="@id/owner"
+            android:layout_alignParentRight="true"
+            android:textAppearance="@android:style/TextAppearance.Inverse"/>
+        <TextView
+            android:id="@+id/description1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_description"
+            android:layout_below="@id/mail"
+            android:textAppearance="@android:style/TextAppearance.Medium.Inverse"/>
+        <TextView
+            android:id="@+id/description2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/secondary_description"
+            android:layout_below="@id/description1"
+            android:textAppearance="@android:style/TextAppearance.Small.Inverse"/>
+        <TextView
+            android:id="@+id/calltoaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/catchphrase"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:textAppearance="@android:style/TextAppearance.Small.Inverse"/>
+    </RelativeLayout>
+</LinearLayout>

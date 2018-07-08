@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Yugioh Business</string>
+    <string name="business_name">Yu-Gi-Oh R Us</string>
+    <string name="owner_name">Seto Kaiba</string>
+    <string name="phone_number">416 123 456</string>
+    <string name="email">setokaiba@gmail.com</string>
+    <string name="main_description">The most legendary and rare Yu-Gi-Oh cards can be found in
+        Yu-Gi-Oh R Us.
+    </string>
+    <string name="secondary_description">If you wish to buy, trade, or sell Yu-Gi-Oh cards, then
+        Yu-Gi-Oh R Us is the best place to do so! Meet other great duelists at Yu-Gi-Oh R Us.
+    </string>
+    <string name="catchphrase">Time To Duel!</string>
+    <string name="banner_description">Banner</string>
+    <string name="blue_eyes_description">Blue Eyes White Dragon</string>
+    <string name="red_eyes_description">Red Eyes Black Dragon</string>
+    <string name="exodia_description">Exodia Head</string>
+    <string name="dark_magician_description">Dark Magician</string>
+</resources>
